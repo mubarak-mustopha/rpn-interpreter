@@ -1,0 +1,18 @@
+n 0 50 ! =
+PRINTS 'Pick a number btw 0 and 50: '
+INPUT guess
+
+guess n > 9 ?
+n guess > 11 ?
+PRINTLN 'Congrats you got it.'
+1 14 ?
+
+PRINT 'Too high'
+1 1 ? 
+PRINT 'Too low'
+1 1 ?
+
+PRINTS 'Play again? (1 = yes, 0 = no) '
+INPUT ans
+ans 1 ?
+PRINTS 'BYE'

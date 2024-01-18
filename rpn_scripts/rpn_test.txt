@@ -1,0 +1,7 @@
+PRINTLN 'Enter width of traingle'
+INPUT width
+
+PRINTLN 'Enter height of traingle'
+INPUT height
+
+width height* 0.5*
